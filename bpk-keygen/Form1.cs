@@ -44,7 +44,7 @@ namespace bpk_keygen
 
         private void CheckTextBoxKeys(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == (char)13)
+            if (e.KeyChar == (char)0x0D)
             {
                 e.Handled = true;
                 button1_Click(null, null);
